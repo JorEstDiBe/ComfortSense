@@ -1,4 +1,4 @@
-# ComfortSense-IoT 🌡️💡🔊
+# ComfortSense-IoT 
 
 **Universidad de la Sabana — Internet de las Cosas (2026-1)**
 
