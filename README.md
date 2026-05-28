@@ -262,11 +262,11 @@ Cada variable ambiental recibe un puntaje de 0 a 100 basado en rangos ideales y 
 
 ## 11. Uso de Memoria
 
-> ⚠️ **Pendiente:** Este dato se obtiene desde el IDE de Arduino al momento de verificar o cargar el sketch. Actualizar con los valores reales del equipo.
+ **Pendiente:** Este dato se obtiene desde el IDE de Arduino al momento de verificar o cargar el sketch. Actualizar con los valores reales del equipo.
 
 ```
-Sketch uses XXXXXX bytes (XX%) of program storage space. Maximum is 1,310,720 bytes.
-Global variables use XXXXX bytes (XX%) of dynamic memory, leaving XXXXX bytes for local variables. Maximum is 327,680 bytes.
+El Sketch usa 957585 bytes (73%) del espacio de almacenamiento de programa. El máximo es 1310720 bytes.
+Las variables Globales usan 48228 bytes (14%) de la memoria dinámica, dejando 279452 bytes para las variables locales. El máximo es 327680 bytes.
 ```
 
 **Notas sobre memoria en tiempo de ejecución:**
@@ -319,7 +319,7 @@ Global variables use XXXXX bytes (XX%) of dynamic memory, leaving XXXXX bytes fo
 
 ## 15. MVP y Backlog
 
-### Funcionalidades Must-have ✅
+### Funcionalidades Must-have 
 - Lectura de temperatura y humedad (BME280)
 - Lectura de nivel de iluminación (BH1750)
 - Lectura de ruido ambiental (módulo micrófono)
@@ -328,14 +328,12 @@ Global variables use XXXXX bytes (XX%) of dynamic memory, leaving XXXXX bytes fo
 - Visualización en dashboard básico
 - Healthcheck HTTP local
 
-### Funcionalidades Nice-to-have 🔜
+### Funcionalidades Nice-to-have 
 - Medición de calidad del aire (MQ-135)
 - Generación de alertas automáticas
 - Almacenamiento de datos históricos
 - Visualización avanzada con gráficas y tendencias
 - Recomendaciones automáticas basadas en el índice
-
-El backlog completo está organizado en el **GitHub Project** del repositorio, con tareas clasificadas en Must-have, Nice-to-have y Spikes.
 
 ---
 
